@@ -1,0 +1,33 @@
+.titulo{
+    font-size: 2rem;
+    padding-top: 2rem;
+    color: var(--primary);
+    margin-bottom: 80px;
+    margin-top: 0;
+
+}
+
+.textos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+  
+   
+}
+
+.erro{
+    font-size: 300px;
+    font-family: Bebas Neue;
+    font-weight: bold;
+    color: var(--secondary);
+    margin-bottom: -70px;
+    margin-top: -120px;
+}
+
+.erro_pag{
+    font-size: 2rem;
+    color: var(--primary);
+
+}

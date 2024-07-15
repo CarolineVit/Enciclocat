@@ -1,0 +1,25 @@
+:root {
+  font-family: Nunito Sans;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  
+  --primary: #FF7900;
+  --secondary: #006866;
+  --terceary: #B2D7C0;
+  --yellow: #FFB500;
+  --soft-pink: #FFC1C3;
+  --bege: #FFF6EC;
+  --white: #fefefe;
+  --black: #111;
+  --gray: #363636;
+  
+}
+
+*{ /*seletor universal*/
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}

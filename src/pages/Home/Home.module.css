@@ -1,0 +1,58 @@
+.home{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.apresentacao{
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+.home img{
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.home p{
+    color: var(--gray);
+    opacity: 65%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.home span{
+    color: var(--black);
+    font-family: Bebas Neue;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-decoration: solid;
+    line-height: 1.0;
+    margin-top: 70px;
+    
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 9px;
+}
+
+.btn_orange{
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.btn_orange:hover{
+    background-color: var(--yellow);
+}
+
+
