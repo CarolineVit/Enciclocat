@@ -1,0 +1,32 @@
+.ajuda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .cardGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+
+  .ajuda h1{
+    font-size: 2rem;
+    font-family: Bebas Neue;
+    color: var(--gray);
+  }
+
+  @media(max-width: 768px){
+    .cardGrid{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }

@@ -1,3 +1,11 @@
+body{
+    background-image: url('../../public/vetor.svg');
+    background-position: top right; /* Posiciona no canto superior direito */
+    background-repeat: no-repeat;
+    background-size: 700px;
+}
+
+
 .home{
     width: 100%;
     height: auto;
@@ -15,8 +23,9 @@
 
 .home img{
     height: 300px;
-    margin-top: 80px;
-    margin-left: 50px;
+    margin-top: 90px;
+    margin-right: 60px;
+
 }
 
 .home p{
@@ -42,8 +51,13 @@
     height: 40px;
     font-size: 1rem;
     font-weight: bold;
+    font-family: Nunito Sans;
     border: 0;
     border-radius: 9px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .btn_orange{
@@ -55,4 +69,30 @@
     background-color: var(--yellow);
 }
 
+@media(max-width: 768px){
+    .home{
+        flex-direction: column;
+        height: auto;
+        text-align: left;
+    }
+    .home img{
+        height: 350px;
+        margin-top: 2rem;
+        order: 1;
+        margin-right: 50px;
+        
+    
+    }
+    .home p{
+        font-size: 1.8rem;
+        
+    }
+    .home span{
+        font-size: 5rem;
+    }
+    .apresentacao{
+        order: 2;
+        margin-bottom: 20px;
+    }
+}
 

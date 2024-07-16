@@ -6,14 +6,15 @@ function Header() {
         <header className={styles.header}>
             <Link to="/">
                 <div className={styles.logo}>
-                    <img src="../../vegetal.png"></img>
-                    <span>Smart Food</span>
+                    <img src="../../pata.png"></img>
+                    <span>Enciclocat</span>
                 </div>
             </Link>
             <nav>
                 <Link to="/">Home</Link>
+                <Link to="/racas">Raças</Link>
                 <Link to="/contato">Contato</Link>
-                <Link to="/ajuda">Ajuda</Link>
+            
             </nav>
 
         </header>
